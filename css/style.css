@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Comfortaa", cursive;
+  background-image: url("../img/so-white.png");
+}
+
+.contenedor-nav {
+  top: 0%;
+}
+.contenedor-nav .navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor-nav .navbar .contenedor-menu-texto {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.contenedor-nav .navbar .contenedor-menu-texto .texto-navegacion {
+  margin-top: 2px;
+  margin-left: 15px;
+  color: white;
+  font-size: 20px;
+}
+.contenedor-nav .navbar .contenedor-menu-texto .menu-hamburguesa {
+  height: 30px;
+  width: 35px;
+}
+.contenedor-nav .navbar .contenedor-menu-texto .menu-hamburguesa .los-tres-span {
+  background-color: peru;
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 7px;
+  transform-origin: 0px 100%;
+  transition: all 300ms;
+}
+.contenedor-nav .navbar .contenedor-menu-texto .menu-hamburguesa .js-span-1 {
+  transform: rotate(45deg) translate(-2px, 1px);
+}
+.contenedor-nav .navbar .contenedor-menu-texto .menu-hamburguesa .js-span-2 {
+  opacity: 0;
+}
+.contenedor-nav .navbar .contenedor-menu-texto .menu-hamburguesa .js-span-3 {
+  transform: rotate(-45deg) translate(-4px, 2px);
+}
+.contenedor-nav .navbar .contenedor-boton-carrito .boton-carrito {
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 1px rgba(255, 0, 0, 0);
+}
+.contenedor-nav .navbar .contenedor-boton-carrito .boton-carrito .img-carrito {
+  height: 40px;
+  width: 50;
+}
+
+.contenedor-portada {
+  background-image: url("../img/portada-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 670px;
+  z-index: -2;
+  margin-top: -125px;
+}
+.contenedor-portada .contenedor-titulo-portada {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.contenedor-portada .contenedor-titulo-portada .titulo-portada {
+  color: red;
+}
+
+.contenedor-tragos {
+  margin-top: 50px;
+}
+.contenedor-tragos .contenedor-titulo-tragos-imagen {
+  margin: auto;
+  width: 90%;
+}
+.contenedor-tragos .contenedor-titulo-tragos-imagen .contenedor-imagenes-tragos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contenedor-tragos .contenedor-titulo-tragos-imagen .contenedor-imagenes-tragos .contenedor-tragos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contenedor-tragos .contenedor-titulo-tragos-imagen .contenedor-imagenes-tragos .contenedor-tragos .tragos {
+  height: 250px;
+}
+
+/*# sourceMappingURL=style.css.map */

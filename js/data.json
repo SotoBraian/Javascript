@@ -1,0 +1,11 @@
+[
+    {"id": 1, "nombre": "Whisky Sour", "precio": 800,"img": "img/whisky-sour.avif"},
+    {"id": 2, "nombre": "Mojito", "precio": 850, "img": "img/mojito.jpg"},
+    {"id": 3, "nombre": "Manhattan", "precio": 900, "img":"img/manhattan.jpg"},
+    {"id": 4, "nombre": "Espresso Martini", "precio": 950, "img":"img/espresso-Martini.jpg"},
+    {"id": 5, "nombre": "Aperol Spritz", "precio": 950, "img":"img/aperol-Spritz.jpg"},
+    {"id": 6, "nombre": "Daiquiri", "precio": 800, "img":"img/daiquiri.jpg"},
+    {"id": 7, "nombre": "Margarita", "precio": 870, "img":"img/margarita.jpg"},
+    {"id": 8, "nombre": "Dry Martini", "precio": 1000, "img":"img/dry-martini.jpg"},
+    {"id": 9, "nombre": "Old Fashioned", "precio": 1050, "img":"img/old-Fashioned.jpg"}
+]

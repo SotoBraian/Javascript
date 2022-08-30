@@ -1,0 +1,9 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    background-image: url("../img/so-white.png");
+}
+@import "componentes/header.scss";
+@import"componentes/portada.scss";
+@import "componentes/tragos.scss"

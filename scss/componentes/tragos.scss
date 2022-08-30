@@ -1,0 +1,30 @@
+.contenedor-tragos{
+    margin-top: 50px;
+    .contenedor-titulo-tragos-imagen{
+        margin: auto;
+        width: 90%;
+        .contenedor-titulo-tragos{
+            .titulo-tragos{
+            }
+        }
+        .contenedor-imagenes-tragos{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .contenedor-tragos{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                .nombre-trago{
+                    
+                }
+                .tragos{
+                    height: 250px;
+                }
+                .boton-carrito{
+                    
+                }
+            }
+        }
+    }
+}
